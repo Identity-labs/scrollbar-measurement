@@ -21,7 +21,7 @@ $(function(){
 	
 	var scrollbarWidth = getScrollbarWidth();
 	if(scrollbarWidth > 0){
-		$('body').addClass('has-scrollbar');
-		$('body').addClass('scrollbar-' + scrollbarWidth);
+		$('html').addClass('has-scrollbar');
+		$('html').addClass('scrollbar-' + scrollbarWidth);
 	}
 });

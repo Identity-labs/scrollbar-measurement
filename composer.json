@@ -1,0 +1,8 @@
+{
+   "name": "identity-labs/scrollbar-measurement",
+   "description": "scrollbar-measurement",
+   "type": "library",
+   "keywords": [
+       "jquery"
+   ]
+}

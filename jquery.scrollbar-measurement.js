@@ -23,5 +23,13 @@ $(function(){
 	if(scrollbarWidth > 0){
 		$('html').addClass('has-scrollbar');
 		$('html').addClass('scrollbar-' + scrollbarWidth);
+	}else{
+		setTimeout(function(){
+			var scrollbarWidth = getScrollbarWidth();
+			if(scrollbarWidth > 0){
+				$('html').addClass('has-scrollbar');
+				$('html').addClass('scrollbar-' + scrollbarWidth);
+			}
+		}, 250);
 	}
 });
